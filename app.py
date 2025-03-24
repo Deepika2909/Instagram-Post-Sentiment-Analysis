@@ -16,7 +16,7 @@ import time
 app = Flask(__name__)
 
 # Set up path to Firefox cookies
-path_to_firefox_cookies = r"C:\Users\deepika\AppData\Roaming\Mozilla\Firefox\Profiles\ap61719b.default-release\cookies.sqlite"
+path_to_firefox_cookies = r"space"
 
 # Ensure the cookies file exists
 if not os.path.exists(path_to_firefox_cookies):
